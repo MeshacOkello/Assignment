@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
-    int a, b, c, d;
-    printf("Enter the first value");
+int main()
+{
+    int a, b, c;
+    printf("Enter value of a\n");
     scanf("%d", &a);
-    printf("Enter the second value");
+    printf("Enter value of b\n");
     scanf("%d", &b);
-    printf("Enter the third value");
+    printf("Enter value of c\n");
     scanf("%d", &c);
-    d=a+b+c;
-    printf("%d+%d+%d=%d\n", a, b, c, d);
-}
+    printf("Your equation is %dx2+%dx+%d\n", a, b, c);
 
+}
